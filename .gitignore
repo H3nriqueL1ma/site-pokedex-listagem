@@ -1,4 +1,4 @@
 node_modules/
-.eslintignore.json
+.eslintignore
 .eslintrc.json
 webpack.config.js
