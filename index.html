@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <title>Pokedex - Listagem</title>
+</head>
+<body>
+    <section id="cards">
+        <button id="pikachu" class="option selected">
+            <img src="img/cabeca-pikachu.png" alt="image" class="image-head">
+            <span class="title">Pikachu</span>
+        </button>
+
+        <button id="bulbasaur" class="option">
+            <img src="img/cabeca-bulbasaur.png" alt="image" class="image-head">
+            <span class="title">Bulbasaur</span>
+        </button>
+
+        <button id="charmander" class="option">
+            <img src="img/cabeca-charmander.png" alt="image" class="image-head">
+            <span class="title">Charmander</span>
+        </button>
+
+        <button id="gyarados" class="option">
+            <img src="img/cabeca-gyarados.png" alt="image" class="image-head">
+            <span class="title">Gyarados</span>
+        </button>
+
+        <button id="gengar" class="option">
+            <img src="img/cabeca-gengar.png" alt="image" class="image-head">
+            <span class="title">Gengar</span>
+        </button>
+
+        <button id="dragonite" class="option">
+            <img src="img/cabeca-dragonite.png" alt="image" class="image-head">
+            <span class="title">Dragonite</span>
+        </button>
+    </section>
+
+    <section id="card" class="card">
+        <div id="back">
+            <h1>Pikachu</h1>
+            <p>#001</p>
+        </div>
+
+        <span id="type">Elétrico</span>
+
+        <img src="img/pikachu.png" alt="image">
+
+        <div id="attrib">
+            <div id="status">
+                <h1>Status</h1>
+                <ul>
+                    <li>HP: 300</li>
+                    <li>Ataque: 600</li> 
+                    <li>Defesa: 500</li>
+                    <li>Velocidade: 300</li>
+                    <li>Total: 1700</li>
+                </ul>
+            </div>
+
+            <div id="skills">
+                <h1>Habilidades</h1>
+                <ul>
+                    <li>Choque do trovão</li>
+                    <li>Cabeçada</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+</body>
+<script src="dist/bundle.js"></script>
+</html>
