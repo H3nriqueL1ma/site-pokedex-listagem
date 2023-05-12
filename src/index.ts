@@ -1,5 +1,12 @@
 import $ from "jquery";
 
+var scale: string = "scale(1)";
+const body: JQuery<HTMLElement> = $("body");
+
+body.css("-webkit-transform", scale);
+body.css("-ms-transform", scale);
+body.css("transform", scale);
+
 function removeSelected() {
   const option: JQuery<Element> = $(".selected");
   option.removeClass("selected");
